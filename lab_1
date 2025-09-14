@@ -7,12 +7,14 @@ Attributes listed inside entities
 Relationship
   one to many(---<-)
   one to one(-----)
-  
+  many to many (->----<-)
+  many to one(->---)
+
   mandatary like two(lines)
   optional(point or small circle)
 
 
-10 tables they are normalized to the 3rd NF
+10 tables they are normalized to the 3NF
 1 Airport-airport information
 2 Airline
 3 Flight
@@ -23,3 +25,7 @@ Relationship
 8 Baggagecheck
 9 BookingHistory
 10 BoardingPass
+
+1NF (First Normal Form) → No repeating groups, atomic values only.
+2NF (Second Normal Form) → Must already be in 1NF, and no partial dependency (every non-key attribute depends on the whole primary key, not part of it).
+3NF (Third Normal Form) → Must already be in 2NF, and there should be no transitive dependency (non-key attributes cannot depend on other non-key attributes).
