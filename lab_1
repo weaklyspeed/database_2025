@@ -1,0 +1,25 @@
+database_fall_2025
+Entities represented by rectangles
+rectangles are tables
+Attributes listed inside entities
+  PK(primary key) 
+  FK(foreign key)
+Relationship
+  one to many(---<-)
+  one to one(-----)
+  
+  mandatary like two(lines)
+  optional(point or small circle)
+
+
+10 tables they are normalized to the 3rd NF
+1 Airport-airport information
+2 Airline
+3 Flight
+4 Passanger
+5 Booking
+6 Security check
+7 Baggage
+8 Baggagecheck
+9 BookingHistory
+10 BoardingPass
